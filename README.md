@@ -6,7 +6,7 @@ being:
 ```
 /home/user/apps -> your apps folder,
 /home/user/apps/ledger-build-docker -> this project,
-/home/user/apps/blue-app-csc -> the project that you want to compile
+/home/user/apps/ledger-app-csc -> the project that you want to compile
 ```
 
 running:
@@ -25,9 +25,10 @@ then you can go to /root and compile it!
 # compile example
 ```
 cd /root
-cd blue-app-csc
+cd ledger-app-csc
 make clean
 make
 ```
+
 upload binary (experimental)
 ```make load```
